@@ -40,7 +40,7 @@ let codeCleaner0 = new CodeCleaner();
 code = codeCleaner0.removeAttribsFromArray(["class", "style"],code);
 
 /* 
-returns string without SPAN tag
+returns string without attributes class and style
 code = '<p> <span> For more information visit the <a href="example.com" target="_blank" rel="noopener">Example.com</a> website.</span> </p><p> <span><em>Lorem Ipsum</em></a></span> </p>'
 */
 ```
