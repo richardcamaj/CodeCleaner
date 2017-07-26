@@ -45,6 +45,45 @@ code = '<p> <span> For more information visit the <a href="example.com" target="
 */
 ```
 
+### Example 3
+
+Remove tag <span> and tag <em> from HTML code in JS string
+
+```sh
+let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236, 249);"> For more information visit the <a href="example.com" target="_blank" rel="noopener">Example.com</a> website.</span> </p><p> <span><em>Lorem Ipsum</em></a></span> </p>';
+
+let codeCleaner0 = new CodeCleaner();
+
+// codeCleaner0.removeTagsFromArray(tag array, code);
+code = codeCleaner0.removeTagsFromArray(["span", "em"], code);
+
+/* 
+returns string without <span> and <em> tags
+code = '<p>  For more information visit the <a href="example.com" target="_blank" rel="noopener">Example.com</a> website. </p><p> </a> </p>'
+*/
+```
+
+### Example 4
+
+Remove tags <span> + <em> and attributes rel from HTML code in JS string
+
+```sh
+let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236, 249);"> For more information visit the <a href="example.com" target="_blank" rel="noopener">Example.com</a> website.</span> </p><p> <span><em>Lorem Ipsum</em></a></span> </p>';
+
+let codeCleaner0 = new CodeCleaner();
+
+// codeCleaner0.removeTagsFromArray(tag array, code);
+code = codeCleaner0.removeTagsFromArray(["span", "em"], code);
+
+// codeCleaner0.removeAttribsFromArray(array with attributes, code);
+code = codeCleaner0.removeAttribsFromArray(["rel"],code);
+
+/* 
+returns string without <span>, <em> tags and attributes rel
+code = '<p>  For more information visit the <a href="example.com" target="_blank">Example.com</a> website. </p><p> </a> </p>'
+*/
+```
+
 License
 ----
 
