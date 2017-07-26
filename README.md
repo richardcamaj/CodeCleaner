@@ -1,9 +1,9 @@
 # CodeCleaner
 ## version 1.0.2
 
-![version: 1.0.2](https://img.shields.io/badge/flat-1.0.2-blue.svg?label=version)
-![status: stable](https://img.shields.io/badge/flat-stable-blue.svg?label=status)
-![licence: mit](https://img.shields.io/badge/flat-mit-blue.svg?label=license)
+![version: 1.0.2](https://img.shields.io/badge/flat-1.0.2-brightgreen.svg?label=version)
+![status: stable](https://img.shields.io/badge/flat-stable-brightgreen.svg?label=status)
+![licence: mit](https://img.shields.io/badge/flat-mit-brightgreen.svg?label=license)
 
 Simple and easy to use HTML code cleaning from tags and attributes.
 
