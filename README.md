@@ -1,5 +1,4 @@
-# CodeCleaner
-## version 1.0.2
+# CodeCleaner version 1.0.2
 
 ![version: 1.0.2](https://img.shields.io/badge/flat-1.0.2-brightgreen.svg?label=version)
 ![status: stable](https://img.shields.io/badge/flat-stable-brightgreen.svg?label=status)
