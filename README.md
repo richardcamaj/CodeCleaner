@@ -47,7 +47,7 @@ code = '<p> <span> For more information visit the <a href="example.com" target="
 
 ### Example 3
 
-Remove tag <span> and tag <em> from HTML code in JS string
+Remove tags SPAN and EM from HTML code in JS string
 
 ```sh
 let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236, 249);"> For more information visit the <a href="example.com" target="_blank" rel="noopener">Example.com</a> website.</span> </p><p> <span><em>Lorem Ipsum</em></a></span> </p>';
@@ -65,7 +65,7 @@ code = '<p>  For more information visit the <a href="example.com" target="_blank
 
 ### Example 4
 
-Remove tags <span> + <em> and attributes rel from HTML code in JS string
+Remove tags SPAN + EM and attributes REL from HTML code in JS string
 
 ```sh
 let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236, 249);"> For more information visit the <a href="example.com" target="_blank" rel="noopener">Example.com</a> website.</span> </p><p> <span><em>Lorem Ipsum</em></a></span> </p>';
