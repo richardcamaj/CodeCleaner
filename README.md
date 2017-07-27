@@ -1,6 +1,6 @@
-# CodeCleaner version 1.0.2
+# CodeCleaner version 1.0.3
 
-![version: 1.0.2](https://img.shields.io/badge/flat-1.0.2-brightgreen.svg?label=version)
+![version: 1.0.3](https://img.shields.io/badge/flat-1.0.3-brightgreen.svg?label=version)
 ![status: stable](https://img.shields.io/badge/flat-stable-brightgreen.svg?label=status)
 ![licence: mit](https://img.shields.io/badge/flat-mit-brightgreen.svg?label=license)
 
@@ -22,8 +22,8 @@ let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236,
 
 let codeCleaner0 = new CodeCleaner();
 
-// codeCleaner0.removeTagsFromArray(tag array, code);
-code = codeCleaner0.removeTagsFromArray(["span"], code);
+// codeCleaner0.removeTags(tag array, code);
+code = codeCleaner0.removeTags(["span"], code);
 
 /* 
 returns string without SPAN tag
@@ -40,8 +40,8 @@ let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236,
 
 let codeCleaner0 = new CodeCleaner();
 
-// codeCleaner0.removeAttribsFromArray(array with attributes, code);
-code = codeCleaner0.removeAttribsFromArray(["class", "style"],code);
+// codeCleaner0.removeAttribs(array with attributes, code);
+code = codeCleaner0.removeAttribs(["class", "style"],code);
 
 /* 
 returns string without attributes class and style
@@ -58,8 +58,8 @@ let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236,
 
 let codeCleaner0 = new CodeCleaner();
 
-// codeCleaner0.removeTagsFromArray(tag array, code);
-code = codeCleaner0.removeTagsFromArray(["span", "em"], code);
+// codeCleaner0.removeTags(tag array, code);
+code = codeCleaner0.removeTags(["span", "em"], code);
 
 /* 
 returns string without <span> and <em> tags
@@ -76,11 +76,11 @@ let code = '<p> <span class="notranslate" style="background-color: rgb(230, 236,
 
 let codeCleaner0 = new CodeCleaner();
 
-// codeCleaner0.removeTagsFromArray(tag array, code);
-code = codeCleaner0.removeTagsFromArray(["span", "em"], code);
+// codeCleaner0.removeTags(tag array, code);
+code = codeCleaner0.removeTags(["span", "em"], code);
 
-// codeCleaner0.removeAttribsFromArray(array with attributes, code);
-code = codeCleaner0.removeAttribsFromArray(["rel"],code);
+// codeCleaner0.removeAttribs(array with attributes, code);
+code = codeCleaner0.removeAttribs(["rel"],code);
 
 /* 
 returns string without <span>, <em> tags and attributes rel
@@ -88,7 +88,14 @@ code = '<p>  For more information visit the <a href="example.com" target="_blank
 */
 ```
 
+### Changelog
+- v 1.0.3: updated regular expression for attributes
+
+
 License
 ----
 
 MIT
+
+
+I thank [burger92](https://github.com/burger92) for useful remarks and testing
