@@ -98,4 +98,4 @@ License
 MIT
 
 
-I thank [burger92](https://github.com/burger92) for useful remarks and testing
+I thank [josefburger](https://github.com/burger92) for useful remarks and testing
